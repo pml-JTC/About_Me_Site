@@ -47,7 +47,7 @@ p {
 }
 
 a:link {
-    color:black;
+    color:white 0, 0, 0);
     text-decoration: none;
 }
 
@@ -64,6 +64,9 @@ a:active {
     color:blueviolet;
 }
 
-li a {
-    color:navy;
+li {
+  font-family: "Open Sans", sans-serif
+  font-size: 14px;                 
+  line-height: 1.6;
+  color:black
 }
