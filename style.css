@@ -1,8 +1,11 @@
+
+/* Applied box-sizing to entire page and set reference points for rem values */
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
+/* Added universal rule for box-sizing */
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -28,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #474646; 
 }
 
+/* Specified bottom margin for h1 to reduce space */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
@@ -87,6 +91,7 @@ li {
   color:black
 }
 
+/* Made section-block styling consistent across section-block class items */
 .section-block {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -94,6 +99,7 @@ li {
   margin-bottom: 3rem;
 }
 
+/* Added page-container to wrap entire page */
 .page-container {
   max-width: 900px;
   margin: 0 auto;
