@@ -1,8 +1,12 @@
-*,
-*::before,
-*::after {
+html {
   box-sizing: border-box;
+  font-size: 16px;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 
 
 
@@ -25,11 +29,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;  
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+
 }
 
 h2 {
   font-size: 2rem;
+
 }
 
 h3 {
@@ -79,3 +86,17 @@ li {
   line-height: 1.6;
   color:black
 }
+
+.section-block {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
