@@ -124,6 +124,7 @@ figcaption {
   align-items: center;
   padding: 1rem 0;
   background: aquamarine;
+  z-index: 1000;
 }
 
 
