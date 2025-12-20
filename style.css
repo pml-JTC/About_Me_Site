@@ -106,3 +106,76 @@ li {
   padding: 0 20px;
 }
 
+/*Styled header with header class to be sticky with flex styling */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background: aquamarine;
+}
+
+
+/*Added contact-card container with flex styling */
+.contact-card {
+  max-width: 400px;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+  font-family: system-ui, sans-serif;
+}
+
+.contact-card h5 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact-card fieldset {
+  border: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.contact-card legend {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card label {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.contact-card input[type="text"],
+.contact-card input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contact-card input[type="submit"] {
+  margin-top: 1rem;
+  padding: 0.6rem;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #0077ff;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-card input[type="submit"]:hover {
+  background: #005fcc;
+}
