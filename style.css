@@ -91,6 +91,15 @@ li {
   color:black
 }
 
+/* Made figcaption text match content text */
+
+figcaption {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: navy;
+}
+
+
 /* Made section-block styling consistent across section-block class items */
 .section-block {
   border: 1px solid #ddd;
